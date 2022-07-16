@@ -16,7 +16,7 @@ University of Rochester, Kitware, Inc.
 
 In this work, we propose the Multi-Color MNIST dataset to better benchmark debiasing methods under the *multi-bias* setting. It contains two bias attributes—left color and right color.
 
-### Download and Untar Multi-Color MNIST Ddataset
+### Download and Untar Multi-Color MNIST Dataset
 
 ```
 cd data
