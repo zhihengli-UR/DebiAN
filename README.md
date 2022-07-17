@@ -75,6 +75,10 @@ imageio
 bash scripts/${DATASET_NAME}_debian.sh  # ${DATASET_NAME} = bar, bffhq, celeba_blond, celeba_gender, multi_color_mnist, or scene
 ```
 
+## Add your method
+
+This code base can be used to add future methods for training and evaluation. To achieve that, simply create a new Trainer class for your method that inherits the `BaseTrainer` class in each experiment folder (e.g., `bffhq_exp`).
+
 ## Citation
 
 Please cite our work if you use DebiAN or the Multi-Color MNIST dataset.
